@@ -1,12 +1,12 @@
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
-import ImageGrid from "./components/Image-Grid/Image-Grid";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
     <main className="conent">
     <Navbar />
-    <ImageGrid />
+    <Hero />
 
     </main>
 
