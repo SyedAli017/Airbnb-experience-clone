@@ -1,0 +1,9 @@
+.image-grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-grid {
+  padding: 35px;
+}
