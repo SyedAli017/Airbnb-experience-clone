@@ -1,0 +1,12 @@
+.card {
+    outline: solid 2px blue;
+}
+
+.card-list {
+    display: flex;
+}
+
+.card-image {
+    width: 175px;
+
+}
