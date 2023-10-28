@@ -1,0 +1,50 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-grid {
+  padding: 35px;
+  margin: auto;
+  max-width: 860px;
+  width: 100%;
+}
+
+.hero-heading {
+  padding-left: 50px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero-title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.hero-description {
+  color: #222;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 110%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .hero-heading {
+    gap: 5px;
+    max-width: 400px;
+    padding-left: 20px;
+  }
+}
