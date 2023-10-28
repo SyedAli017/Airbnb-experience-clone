@@ -10,3 +10,14 @@
   align-self: center;
   padding-left: 30px;
 }
+
+@media screen and (max-width: 480px) {
+  .navbar-logo {
+    width: 80px;
+    padding-left: 20px;
+  }
+
+  .navbar {
+    height: 40px;
+  }
+}
